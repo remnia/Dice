@@ -1,0 +1,551 @@
+/*9点*/
+.bg{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+
+}
+.touzi1{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.square1{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	flex-direction:column;
+	justify-content: space-around;
+	
+}
+.square2{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	flex-direction:column;
+	justify-content: space-around;
+	
+}
+.square3{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	flex-direction:column;
+	justify-content: space-around;
+	
+}
+.square1:nth-child(3){
+	display: flex;
+	align-items: center;
+	
+}
+.circle{
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	background-color: black;
+
+}
+/*2横*/
+.bg2{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.touzi2{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.squar{
+	width: 100%;
+	height: 64px;
+	
+	display: flex;
+	flex-flow: column;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.squar:nth-child(2){
+	display: flex;
+	align-items: center;
+	
+}
+/*2左竖*/
+.bg3{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+
+}
+.touzi3{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.squar1{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	flex-direction:column;
+	justify-content: space-between;
+	
+}
+/*2中竖*/
+.bg4{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+
+}
+.touzi4{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+}
+.squar2{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	flex-direction:column;
+	justify-content: space-between;
+	
+}
+/*2右竖*/
+.bg5{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+
+}
+.touzi5{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+
+}
+.squar3{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	flex-direction:column;
+	justify-content: space-between;
+	
+}
+/*一上一下*/
+.bg6{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.touzi6{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.squar4{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	
+	justify-content: flex-start;
+	
+}
+.squar5{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;	
+	justify-content: space-between;
+	
+}
+/*上中下*/
+.bg7{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.touzi7{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.squar6{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	
+	justify-content: flex-start;
+	
+}
+.squar7{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;	
+	justify-content: center;
+	
+}
+.squar8{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;	
+	justify-content: space-between;
+	
+}
+/*上排下排*/
+.bg8{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.touzi8{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.squar9{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;
+	
+	justify-content: space-between;
+	
+}
+.squar10{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;	
+	justify-content: space-between;
+	
+}
+.squar11{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;	
+	justify-content: space-between;
+	
+}
+/*左排右排*/
+.bg9{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.touzi9{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.squar12{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;
+	justify-content: space-between;
+	
+}
+.squar13{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;	
+	justify-content: space-between;
+	
+}
+/*四方*/
+.bg10{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.touzi10{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.squar14{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;
+	justify-content: space-between;
+	
+}
+.squar15{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;	
+	justify-content: space-between;
+	
+}
+/*112*/
+.bg11{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.touzi11{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.squar16{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	
+	justify-content: space-between;
+	
+}
+.squar17{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column;	
+	justify-content: space-between;
+	
+}
+.squar18{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;	
+	justify-content: space-between;
+	
+}
+/*上中*/
+.bg12{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.touzi12{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+
+}
+.squar19{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	
+	justify-content: flex-start;
+	
+}
+.squar20{
+	width: 64px;
+	height: 100%;
+	display: flex;
+	flex-flow: column-reverse;	
+	justify-content: center;
+	
+}
+/*天*/
+.bg13{
+	height: 300px;
+	width: 300px;
+	background-color: aquamarine;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.touzi13{
+	width: 200px;
+	height: 200px;
+	background-color: gainsboro;
+	border-radius: 6px; /*这句就是重点，让边框变为圆角*/
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+.squar21{
+	width: 100%;
+	height: 64px;
+	display: flex;
+	flex-flow: row;
+	
+	justify-content: space-between;
+	
+}
+.squar22{
+	width: 100%;
+	height: 64px;
+	display: flex;
+	flex-flow: row;
+	
+	justify-content: center;
+	
+}
+.squar23{
+	width: 100%;
+	height: 64px;
+	display: flex;
+	flex-flow: row;
+	
+	justify-content: space-between;
+	
+}
